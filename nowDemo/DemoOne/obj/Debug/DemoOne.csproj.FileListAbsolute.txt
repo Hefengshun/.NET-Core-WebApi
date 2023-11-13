@@ -1,0 +1,7 @@
+E:\C#学习项目\nowDemo\DemoOne\bin\Debug\DemoOne.exe.config
+E:\C#学习项目\nowDemo\DemoOne\bin\Debug\DemoOne.exe
+E:\C#学习项目\nowDemo\DemoOne\bin\Debug\DemoOne.pdb
+E:\C#学习项目\nowDemo\DemoOne\obj\Debug\DemoOne.csproj.AssemblyReference.cache
+E:\C#学习项目\nowDemo\DemoOne\obj\Debug\DemoOne.csproj.CoreCompileInputs.cache
+E:\C#学习项目\nowDemo\DemoOne\obj\Debug\DemoOne.exe
+E:\C#学习项目\nowDemo\DemoOne\obj\Debug\DemoOne.pdb
