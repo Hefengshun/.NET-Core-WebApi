@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#学习项目\\WebApplic\\demo\\demo.csproj": {}
+    "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\demo\\demo.csproj": {}
   },
   "projects": {
-    "E:\\C#学习项目\\WebApplic\\demo\\demo.csproj": {
+    "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\demo\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#学习项目\\WebApplic\\demo\\demo.csproj",
+        "projectUniqueName": "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\demo\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "E:\\C#学习项目\\WebApplic\\demo\\demo.csproj",
+        "projectPath": "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\demo\\demo.csproj",
         "packagesPath": "C:\\Users\\51138\\.nuget\\packages\\",
-        "outputPath": "E:\\C#学习项目\\WebApplic\\demo\\obj\\",
+        "outputPath": "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
             }
           },
           "imports": [

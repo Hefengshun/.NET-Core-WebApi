@@ -7,9 +7,17 @@ namespace demo.Controllers
     [ApiController]
     public class TextController : ControllerBase
     {
+        private readonly ILogger<TextController> _logger;
+
+        public TextController(ILogger<TextController> logger)
+        {
+            _logger = logger;
+        }
+
         [HttpGet]
         public Person GetPerson()
         {
+            _logger.LogError("错误了？？？？？？？？？？？？？？？？？？？"); // 自带的_logger是控制台打印的
             return new Person("heheh", 18);
         }
         [HttpPost]

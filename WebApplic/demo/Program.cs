@@ -1,5 +1,8 @@
 using demo;
+using demo.Utility.Route;
 using demo.Utility.Swagger;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc;
 
 internal class Program
 {
@@ -7,9 +10,19 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // 配置log4net    就会把之前的内置日志替换掉
+        builder.Logging.AddLog4Net("CfgFile/log4net.config"); 
+
+
+
         // Add services to the container.
 
-        builder.Services.AddControllers();
+        builder.Services.AddControllers(
+        //    option =>   //在控制器里面配置 增加前缀
+        //{
+        //    option.Conventions.Insert(0, new RouteConvention(new RouteAttribute("api/")));
+        //}
+        );
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         // 如果依赖包里面没有 就要 nuget: Swashbuckle.AspNetCore 去安装 Swashbuckle.AspNetCore这个依赖包
         #region Swagger的配置
@@ -26,6 +39,28 @@ internal class Program
                     Description = $"通用版本的CoreApi{version}"
                 })
             );
+            #endregion
+
+            #region 配置展示注释
+            //{
+            //    // xml文档的决定路径
+            //    var file = Path.Combine(AppContext.BaseDirectory, "demo.xml");
+            //    //true:显示控制器层注释
+            //    option.IncludeXmlComments(file,true);
+            //    // 对action的名称进行排序,如果有多个,就可以看见效果了
+            //    option.OrderActionsBy(o => o.RelativePath);
+            //}
+            #endregion
+            #region 扩展传入Token
+            //{
+            //    // 添加安全定义
+            //    option.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme {
+            //    Description = "请输入token,格式为 Bearer XXXX (注意中间必须有空格)",
+            //    Name= "Authorization",
+            //    In = ParameterLocation.
+                
+            //    })
+            //}
             #endregion
         });
         #endregion

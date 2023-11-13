@@ -5,7 +5,8 @@ namespace demo.Controllers
 
    
     [ApiController]  // 项目自带的api控制器
-    [Route("api/[controller]")] //api/匹配类里面有[controller]的类名 减去controller就是接口的一部分/ [HttpGet(Name = "Forecast")] 中的name名字就是请求地址
+    [Route("api/[controller]/[action]")] //api/匹配类里面有[controller]的类名(控制器) [action]匹配方法名称
+                                         //减去controller就是接口的一部分/ [HttpGet(Name = "Forecast")] 中的name名字就是请求地址
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -22,7 +23,7 @@ namespace demo.Controllers
 
         // 获取数据
         //[HttpGet("Forecast")]
-        [HttpGet]
+        [HttpGet] // 匹配get请求 进入Get方法
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
