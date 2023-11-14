@@ -11,3 +11,76 @@
 2023-11-14 00:01:45,717 [8] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
 2023-11-14 00:01:46,924 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
 2023-11-14 00:01:50,708 [11] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:22:58,468 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7255
+2023-11-14 20:22:58,679 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5142
+2023-11-14 20:22:58,689 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-14 20:22:58,695 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-14 20:22:58,698 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\
+2023-11-14 20:25:56,226 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:26,641 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:28,606 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:28,777 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:28,945 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:29,105 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:29,242 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:29,391 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:44,791 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:44,947 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:45,115 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:45,251 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:45,415 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:45,575 [5] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:26:45,730 [3] ERROR demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:33:51,501 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7255
+2023-11-14 20:33:51,636 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5142
+2023-11-14 20:33:51,646 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-14 20:33:51,651 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-14 20:33:51,654 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\
+2023-11-14 20:34:02,102 [20] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:34:02,779 [5] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:34:03,110 [8] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:18,576 [46] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:21,554 [44] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:21,709 [44] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:21,859 [45] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:22,020 [45] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:41:22,154 [44] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:26,986 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7255
+2023-11-14 20:47:27,167 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5142
+2023-11-14 20:47:27,179 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-14 20:47:27,189 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-14 20:47:27,195 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\
+2023-11-14 20:47:36,008 [12] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:36,942 [5] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:37,110 [12] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:37,310 [5] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:37,475 [5] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:47:37,628 [5] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:53:33,530 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7255
+2023-11-14 20:53:33,714 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5142
+2023-11-14 20:53:33,724 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-14 20:53:33,730 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-14 20:53:33,733 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\
+2023-11-14 20:53:59,252 [19] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:00,612 [19] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:00,780 [3] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:00,928 [8] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:01,085 [14] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:01,225 [13] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:01,389 [15] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:01,557 [15] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 20:54:01,726 [8] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:22,713 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7255
+2023-11-14 21:06:22,913 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5142
+2023-11-14 21:06:22,922 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-11-14 21:06:22,928 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-11-14 21:06:22,931 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\
+2023-11-14 21:06:31,102 [3] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:31,689 [17] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:31,866 [8] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,059 [14] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,222 [14] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,363 [3] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,508 [3] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,666 [3] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？
+2023-11-14 21:06:32,804 [12] INFO  demo.Controllers.TextController - 错误了？？？？？？？？？？？？？？？？？？？

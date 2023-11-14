@@ -3,15 +3,29 @@ using demo.Utility.Route;
 using demo.Utility.Swagger;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using NLog;
+using NLog.Web;
+
+
+
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+        var logger = NLog.LogManager.Setup().LoadConfigurationFromFile("CfgFile/NLog.config").GetCurrentClassLogger();
         var builder = WebApplication.CreateBuilder(args);
+        
+        #region NLog配置
+        //builder.Logging.ClearProviders();
+        builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
+        builder.Host.UseNLog();
+        #endregion
+
+
 
         // 配置log4net    就会把之前的内置日志替换掉
-        builder.Logging.AddLog4Net("CfgFile/log4net.config"); 
+        //builder.Logging.AddLog4Net("CfgFile/log4net.config"); 
 
 
 

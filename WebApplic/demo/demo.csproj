@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Utility\新文件夹\**" />
+    <Content Remove="Utility\新文件夹\**" />
+    <EmbeddedResource Remove="Utility\新文件夹\**" />
+    <None Remove="Utility\新文件夹\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="CfgFile\log4net.Config" />
   </ItemGroup>
 
@@ -20,7 +27,9 @@
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.15" />
     <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
 </Project>
