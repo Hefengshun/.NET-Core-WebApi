@@ -41,18 +41,19 @@ internal class Program
         // 如果依赖包里面没有 就要 nuget: Swashbuckle.AspNetCore 去安装 Swashbuckle.AspNetCore这个依赖包
         #region Swagger的配置
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen(option => {
+        builder.Services.AddSwaggerGen(
+            option => {
             #region 分版本的Swagger
             // 要启用swagger版本控制就要在api控制器或者方法上添加特性[ApiExplorerSettings(GroupName = "版本号")]
             // 
-            typeof(ApiVersions).GetEnumNames().ToList().ForEach(version =>
-                option.SwaggerDoc(version, new Microsoft.OpenApi.Models.OpenApiInfo()
-                {
-                    Title = $"{version}:Api文档",
-                    Version = version,
-                    Description = $"通用版本的CoreApi{version}"
-                })
-            );
+            //typeof(ApiVersions).GetEnumNames().ToList().ForEach(version =>
+            //    option.SwaggerDoc(version, new Microsoft.OpenApi.Models.OpenApiInfo()
+            //    {
+            //        Title = $"{version}:Api文档",
+            //        Version = version,
+            //        Description = $"通用版本的CoreApi{version}"
+            //    })
+            //);
             #endregion
 
             #region 配置展示注释
@@ -67,27 +68,27 @@ internal class Program
             #endregion
             #region 扩展传入Token
             //{
-            //    // 添加安全定义
-            //    option.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme {
-            //    Description = "请输入token,格式为 Bearer XXXX (注意中间必须有空格)",
-            //    Name= "Authorization",
-            //    In = ParameterLocation.
+                // 添加安全定义
+                //option.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme {
+                //Description = "请输入token,格式为 Bearer XXXX (注意中间必须有空格)",
+                //Name= "Authorization"
+                ////In = ParameterLocation.
                 
-            //    })
+                //})
             //}
             #endregion
         });
         #endregion
 
-        builder.Services.AddCors(opt => {   //跨域的配置
-            opt.AddDefaultPolicy(b =>
-            {
-                b.WithMethods(new string[] { "http://localhost:3000" }) // 配置信任域名发送请求
-                 .AllowAnyMethod().AllowAnyHeader().AllowCredentials();
-                //AllowAnyMethod(任意) 哪些请求类型 AllowAnyHeader(任意) 请求头  AllowCredentials(任意) 认证方式
-                // 以上其中至少有一个不是any  否则程序报错
-            });
-        });
+        //builder.Services.AddCors(opt => {   //跨域的配置
+        //    opt.AddDefaultPolicy(b =>
+        //    {
+        //        b.WithMethods(new string[] { "http://localhost:3000" }) // 配置信任域名发送请求
+        //         .AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+        //        //AllowAnyMethod(任意) 哪些请求类型 AllowAnyHeader(任意) 请求头  AllowCredentials(任意) 认证方式
+        //        // 以上其中至少有一个不是any  否则程序报错
+        //    });
+        //});
 
         builder.Services.AddScoped<Calculator>(); //注入Calculator 服务
                                                   // 配置 Calculator 类的实例化：Calculator 类的实例注册为单例服务。
@@ -104,23 +105,30 @@ internal class Program
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
+        //if (app.Environment.IsDevelopment())  判断是否是正式环境
+        //{
             #region 使用Swagger
-            app.UseSwagger();
-            app.UseSwaggerUI(options => {  //ui区分版本
-                foreach (string version in typeof(ApiVersions).GetEnumNames()) {
-                    options.SwaggerEndpoint($"/swagger/{version}/swagger.json",$"版本：{version}");
-                }
-            });
-            #endregion
-        }
+            //app.UseSwagger();
+            //app.UseSwaggerUI(options => {  //ui区分版本
+            //    foreach (string version in typeof(ApiVersions).GetEnumNames()) {
+            //        options.SwaggerEndpoint($"/swagger/{version}/swagger.json",$"版本：{version}");
+            //    }
+            //});
+        #endregion
+        //}
 
-
+        app.UseSwagger();
+        app.UseSwaggerUI(
+        //    options => {  //ui区分版本
+        //    foreach (string version in typeof(ApiVersions).GetEnumNames())
+        //   {
+        //       options.SwaggerEndpoint($"/swagger/{version}/swagger.json", $"版本：{version}");
+        //   }
+        //}
+            );
         app.UseResponseCaching(); //启动服务器端响应缓存 这个时候CacheController类里的Get方法 启动的客户端缓存就会缓存到服务器端
 
-        app.UseCors(); //使用跨域
-
+        //app.UseCors(); //使用跨域
         app.UseHttpsRedirection();
 
         app.UseAuthorization();

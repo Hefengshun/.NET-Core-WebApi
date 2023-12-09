@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>demo</name>
+    </assembly>
+    <members>
+        <member name="T:demo.Controllers.LoginController">
+            <summary>
+            登录控制器
+            </summary>
+        </member>
+        <member name="M:demo.Controllers.LoginController.Login(demo.Controllers.LoginRequest)">
+            <summary>
+            登录控制器
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="T:demo.Controllers.LoginRequest">
+            <summary>
+            接收参数
+            </summary>
+            <param name="UserName"></param>
+            <param name="PassWord"></param>
+        </member>
+        <member name="M:demo.Controllers.LoginRequest.#ctor(System.String,System.String)">
+            <summary>
+            接收参数
+            </summary>
+            <param name="UserName"></param>
+            <param name="PassWord"></param>
+        </member>
+        <member name="P:demo.Controllers.LoginRequest.UserName">
+            <summary></summary>
+        </member>
+        <member name="P:demo.Controllers.LoginRequest.PassWord">
+            <summary></summary>
+        </member>
+        <member name="T:demo.Controllers.ProcessInfo">
+            <summary>
+            信息参数
+            </summary>
+            <param name="Id"></param>
+            <param name="Name"></param>
+            <param name="WorkingSet"></param>
+        </member>
+        <member name="M:demo.Controllers.ProcessInfo.#ctor(System.Int64,System.String,System.Int64)">
+            <summary>
+            信息参数
+            </summary>
+            <param name="Id"></param>
+            <param name="Name"></param>
+            <param name="WorkingSet"></param>
+        </member>
+        <member name="P:demo.Controllers.ProcessInfo.Id">
+            <summary></summary>
+        </member>
+        <member name="P:demo.Controllers.ProcessInfo.Name">
+            <summary></summary>
+        </member>
+        <member name="P:demo.Controllers.ProcessInfo.WorkingSet">
+            <summary></summary>
+        </member>
+        <member name="T:demo.Controllers.LoginReponse">
+            <summary>
+            返回
+            </summary>
+            <param name="ok"></param>
+            <param name="ProcessInfos"></param>
+        </member>
+        <member name="M:demo.Controllers.LoginReponse.#ctor(System.Boolean,demo.Controllers.ProcessInfo[])">
+            <summary>
+            返回
+            </summary>
+            <param name="ok"></param>
+            <param name="ProcessInfos"></param>
+        </member>
+        <member name="P:demo.Controllers.LoginReponse.ProcessInfos">
+            <summary></summary>
+        </member>
+        <member name="T:demo.Utility.Fliters.CustomAsyncResourceFilterAttribute">
+            <summary>
+            自定义 AsyncResourceFilter
+            </summary>
+        </member>
+        <member name="M:demo.Utility.Fliters.CustomAsyncResourceFilterAttribute.OnResourceExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ResourceExecutionDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:demo.Utility.Fliters.CustomCacheAsyncResourceFilterAttribute">
+            <summary>
+            自定义 AsyncResourceFilter
+            </summary>
+        </member>
+        <member name="F:demo.Utility.Fliters.CustomCacheAsyncResourceFilterAttribute.CacheDictionary">
+            <summary>
+            缓存区域
+            </summary>
+        </member>
+        <member name="T:demo.Utility.Fliters.CustomResourceFilterAttribute">
+            <summary>
+            自定义 ResourceFilter  IResourceFilter ResourceFilter的场景，天生就是为了缓存而生的
+            </summary>
+        </member>
+        <member name="M:demo.Utility.Fliters.CustomResourceFilterAttribute.Microsoft#AspNetCore#Mvc#Filters#IResourceFilter#OnResourceExecuted(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutedContext)">
+            <summary>
+            在XX资源之后
+            </summary>
+            <param name="context"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:demo.Utility.Fliters.CustomResourceFilterAttribute.Microsoft#AspNetCore#Mvc#Filters#IResourceFilter#OnResourceExecuting(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutingContext)">
+            <summary>
+            在XX资源之前
+            </summary>
+            <param name="context"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:demo.Utility.Fliters.CustomCacheResourceFilterAttribute">
+            <summary>
+            自定义 CustomCacheResourceFilterAttribute  扩展缓存
+            </summary>
+        </member>
+        <member name="F:demo.Utility.Fliters.CustomCacheResourceFilterAttribute.CacheDictionary">
+            <summary>
+            缓存区域
+            </summary>
+        </member>
+        <member name="M:demo.Utility.Fliters.CustomCacheResourceFilterAttribute.Microsoft#AspNetCore#Mvc#Filters#IResourceFilter#OnResourceExecuted(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutedContext)">
+            <summary>
+            在XX资源之后
+            </summary>
+            <param name="context"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:demo.Utility.Fliters.CustomCacheResourceFilterAttribute.Microsoft#AspNetCore#Mvc#Filters#IResourceFilter#OnResourceExecuting(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutingContext)">
+            <summary>
+            在XX资源之前
+            </summary>
+            <param name="context"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:demo.Utility.Route.RouteConvention">
+            <summary>
+            全局路由前缀配置
+            </summary>
+        </member>
+        <member name="F:demo.Utility.Route.RouteConvention._centeralPrefix">
+            <summary>
+            定义一个路由前缀变量
+            </summary>
+        </member>
+        <member name="M:demo.Utility.Route.RouteConvention.#ctor(Microsoft.AspNetCore.Mvc.Routing.IRouteTemplateProvider)">
+            <summary>
+            调用时传入指定的路由前缀
+            </summary>
+            <param name="routeTemplateProvider"> 接收的前缀 </param>
+        </member>
+        <member name="M:demo.Utility.Route.RouteConvention.Apply(Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModel)">
+            <summary>
+            接口的Apply方法 根据情况添加api路由前缀
+            </summary>
+            <param name="application"></param>
+        </member>
+        <member name="T:demo.Utility.Swagger.ApiVersions">
+            <summary>
+            版本枚举
+            </summary>
+        </member>
+        <member name="F:demo.Utility.Swagger.ApiVersions.V1">
+            <summary>
+            版本1
+            </summary>
+        </member>
+        <member name="F:demo.Utility.Swagger.ApiVersions.V2">
+            <summary>
+            版本2
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-11-15T16:38:49.5220844Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

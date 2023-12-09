@@ -58,10 +58,8 @@ E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\staticwebass
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\scopedcss\bundle\demo.styles.css
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.csproj.CopyComplete
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.dll
-E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\refint\demo.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.pdb
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.genruntimeconfig.cache
-E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\ref\demo.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\libman.json
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\log4net.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
@@ -80,3 +78,5 @@ E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\CfgFile\NLog
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\NLog.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\demo.xml
+E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.xml
