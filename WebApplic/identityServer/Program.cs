@@ -33,7 +33,7 @@ internal class Program
 
         app.UseHttpsRedirection();
 
-        app.UseAuthentication();// 授权 --- 请求来的时候，把请求中带的token/session/cookies做解析，取出用户信息
+        app.UseAuthentication();// 鉴权 --- 请求来的时候，把请求中带的token/session/cookies做解析，取出用户信息
 
         app.UseAuthorization(); // 授权 --- 已经得到了用户信息，判断是否可以访问当前资源
 

@@ -18,8 +18,13 @@ namespace identityServer.Controllers
             _logger = logger;
             _ICustomJWTService = iCustomJWTService;
         }
-
-        [HttpGet]
+        /// <summary>
+        /// µÇÂ¼
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        [HttpPost]
         public IActionResult Login(string name,string password)
         {
             if ("Richard".Equals(name) && "123456".Equals(password))

@@ -80,3 +80,4 @@ E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\NLog.Extensi
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\bin\Debug\net6.0\demo.xml
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.xml
+E:\C#学习项目\.NET6-Core-WebApi\WebApplic\demo\obj\Debug\net6.0\demo.sourcelink.json

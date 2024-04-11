@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E0p/NWclJy6yyGRjQbC4Nh1MvdKnu9MskoZnDRX6Yp9EZc1R6fl8pPCFudIY1xsB+BQYVRoltvFaWZpYSgF2dw==",
+  "dgSpecHash": "vylmasJqmmflyPmojw6wjgiYKxztoiVoTfpqrYxYkkcUy/oZorJN8PW4WtSbo4UI3cCA/BYrBKAuY/t2BxvWFw==",
   "success": true,
   "projectFilePath": "E:\\C#学习项目\\.NET6-Core-WebApi\\WebApplic\\identityServer\\identityServer.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,11 @@
     "C:\\Users\\51138\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\51138\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\51138\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
-    "C:\\Users\\51138\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+    "C:\\Users\\51138\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\51138\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\51138\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\51138\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\51138\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

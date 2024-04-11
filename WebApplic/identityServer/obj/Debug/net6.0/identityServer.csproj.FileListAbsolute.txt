@@ -35,3 +35,4 @@ E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\bin\Debug\net6.0\Mi
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\C#学习项目\.NET6-Core-WebApi\WebApplic\identityServer\obj\Debug\net6.0\identityServer.sourcelink.json
